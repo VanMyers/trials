@@ -10,7 +10,7 @@ public class mainOnly {
         int tstr = 2 ;
         int i = 0;
         int[] factors = new int[50];
-        for(int cnt = 0; tstr*tstr <= pn ; cnt++) {
+        for(; tstr*tstr <= pn ;) {
           if (pn%tstr == 0) {
             factors[i] = (tstr);
             pn = pn/tstr;
